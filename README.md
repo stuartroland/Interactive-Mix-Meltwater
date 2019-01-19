@@ -6,7 +6,7 @@ This is an interactive song I wrote/developed. The user can change the mix of th
 TO RUN THE FILE
 Download the repository and open the "index.html" file in a web browser. Firefox is highly recommended, as during testing other browsers were apparently much more susceptible to lag issues, which made the different tracks play out of sync, resulting in a very incoherent song.
 
-Click or tap the image once to begin the song, then press different areas of the image to change the mix on the fly.
+Click or tap the image once to begin the song, then press different areas of the image to change the mix on the fly. Reload the page to start the song over.
 
 HOW I MADE THIS
 First, I made 4 different mixes of my song Meltwater (off my album The Endless Wear of Erosion, released under the name Scars of Erosion) and exported the multitracks. Then I used p5.js, a JavaScript library for creating interactive audio-visual web apps, to play the multitracks back and change their mix (and an analogous mix of layered images) on the fly according to user input. 
